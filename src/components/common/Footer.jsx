@@ -25,7 +25,7 @@ export default function Footer() {
                 </h2>
                 <ul className="text-body font-medium">
                   <li className="mb-4">
-                    <a href="https://flowbite.com/" className="hover:underline">
+                    <a href="https://toolmind-mu.vercel.app/" className="hover:underline">
                       ToolMind
                     </a>
                   </li>
