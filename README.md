@@ -1,16 +1,61 @@
-# React + Vite
+# ToolMind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ToolMind is a modern AI tools showcase website built using React, Vite, and Tailwind CSS.  
+The project highlights popular AI assistants and creative AI platforms with a clean and responsive UI.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://toolmind-mu.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Modern responsive UI
+- Hero section with background image
+- AI assistant showcase cards
+- Creative AI tools section
+- Reusable React components
+- Tailwind CSS styling
+- Hover animations
+- Custom favicon
+- Fast deployment using Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript
+- Git & GitHub
+- Vercel
+
+---
+
+## AI Tools Included
+
+### Popular AI Assistants
+
+- ChatGPT
+- Gemini
+- Claude AI
+- Perplexity AI
+
+### Creative AI Platforms
+
+- Midjourney
+- Runway ML
+- Canva AI
+- Adobe Firefly
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sooobhyadav/toolmind.git
+```
