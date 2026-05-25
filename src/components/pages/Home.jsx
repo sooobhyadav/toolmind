@@ -8,7 +8,10 @@ export default function () {
   };
   return (
     <>
-      <section className="bg-[url('/images/hero.png')] bg-cover bg-center h-screen flex flex-col justify-center items-center text-white">
+      <section
+  style={{ backgroundImage: "url('/images/hero.jpg')" }}
+  className="bg-cover bg-center h-screen flex flex-col justify-center items-center text-white"
+>
         <h1 className="text-center text-6xl font-bold py-8">
           Discover the Future of AI Tools {count}
         </h1>
