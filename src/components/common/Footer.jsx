@@ -7,7 +7,10 @@ export default function Footer() {
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
-              <a href="https://toolmind-mu.vercel.app/" className="flex items-center">
+              <a
+                href="https://toolmind-mu.vercel.app/"
+                className="flex items-center"
+              >
                 <img
                   src="./images/logo.png"
                   className="h-20 "
@@ -25,7 +28,10 @@ export default function Footer() {
                 </h2>
                 <ul className="text-body font-medium">
                   <li className="mb-4">
-                    <a href="https://toolmind-mu.vercel.app/" className="hover:underline">
+                    <a
+                      href="https://toolmind-mu.vercel.app/"
+                      className="hover:underline"
+                    >
                       ToolMind
                     </a>
                   </li>
@@ -46,7 +52,7 @@ export default function Footer() {
                 <ul className="text-body font-medium">
                   <li className="mb-4">
                     <a
-                      href="https://github.com/themesberg/flowbite"
+                      href="https://github.com/sooobhyadav/toolmind"
                       className="hover:underline "
                     >
                       Github
@@ -140,7 +146,12 @@ export default function Footer() {
                 </svg>
                 <span className="sr-only">Twitter page</span>
               </a>
-              <a href="#" className="text-body hover:text-heading ms-5">
+              <a
+                href="https://github.com/sooobhyadav/toolmind"
+                className="text-body hover:text-heading ms-5"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <svg
                   className="w-5 h-5"
                   aria-hidden="true"
