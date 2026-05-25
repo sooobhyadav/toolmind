@@ -85,7 +85,10 @@ export default function Footer() {
           <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm text-body sm:text-center">
               © 2026{" "}
-              <a href="https://flowbite.com/" className="hover:underline">
+              <a
+                href="https://toolmind-mu.vercel.app/"
+                className="hover:underline"
+              >
                 ToolMind™
               </a>
               . All Rights Reserved.
