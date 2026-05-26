@@ -75,7 +75,7 @@ function ProductCard({ images, title }) {
 
       <a href="#">
         <img
-          className="w-full h-[250px] sm:h-[300px] object-contain"
+          className="w-full h-[250px] sm:h-[300px] object-cover object-top"
           src={images}
           alt={title}
         />
