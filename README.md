@@ -1,7 +1,9 @@
 # ToolMind
 
 ToolMind is a modern AI tools showcase website built using React, Vite, and Tailwind CSS.  
-The project highlights popular AI assistants and creative AI platforms with a clean and responsive UI.
+The project highlights popular AI assistants and creative AI platforms with a responsive and clean user interface.
+
+---
 
 ## Live Demo
 
@@ -11,15 +13,17 @@ The project highlights popular AI assistants and creative AI platforms with a cl
 
 ## Features
 
-- Modern responsive UI
+- Responsive modern UI
 - Hero section with background image
 - AI assistant showcase cards
-- Creative AI tools section
+- Creative AI platforms section
 - Reusable React components
-- Tailwind CSS styling
-- Hover animations
+- Mobile responsive layout
+- Responsive navigation bar
+- Hover animations and transitions
 - Custom favicon
-- Fast deployment using Vercel
+- GitHub repository integration
+- Fast deployment with Vercel
 
 ---
 
@@ -34,16 +38,16 @@ The project highlights popular AI assistants and creative AI platforms with a cl
 
 ---
 
-## AI Tools Included
-
-### Popular AI Assistants
+## AI Assistants Included
 
 - ChatGPT
 - Gemini
 - Claude AI
 - Perplexity AI
 
-### Creative AI Platforms
+---
+
+## Creative AI Platforms Included
 
 - Midjourney
 - Runway ML
@@ -58,4 +62,3 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/sooobhyadav/toolmind.git
-```
