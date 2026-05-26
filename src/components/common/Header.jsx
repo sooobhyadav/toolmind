@@ -6,13 +6,14 @@ export default function Header() {
   return (
     <div>
       <div
-        className={
-          `bg-white fixed w-[400px] p-4 left-[50%] translate-x-[-50%] translate-y-[-50%] top-[-1000%] rounded-sm ${model? 'top-[50%]' :'top-[-1000%] duration-500 transition-all border-gray-300' } `
-        }
+        className={`bg-white fixed w-[400px] p-4 left-[50%] translate-x-[-50%] translate-y-[-50%] top-[-1000%] rounded-sm ${model ? "top-[50%]" : "top-[-1000%] duration-500 transition-all border-gray-300"} `}
       >
         <h3 className="text-2xl font-bold p-4 relative">
           Enquiry Now!
-          <button  onClick={() => setModel(false)} className="absolute right-3 cursor-pointer">
+          <button
+            onClick={() => setModel(false)}
+            className="absolute right-3 cursor-pointer"
+          >
             <IoMdCloseCircleOutline />
           </button>
         </h3>
@@ -107,11 +108,7 @@ export default function Header() {
             href="https://toolmind-mu.vercel.app/"
             className="flex items-center space-x-0 rtl:space-x-reverse"
           >
-            <img
-              src="./images/logo.png"
-              className="h-20"
-              alt="ToolMind Logo"
-            />
+            <img src="./images/logo.png" className="h-20" alt="ToolMind Logo" />
             <span className="self-center text-2xl text-heading font-bold whitespace-nowrap">
               ToolMind
             </span>
